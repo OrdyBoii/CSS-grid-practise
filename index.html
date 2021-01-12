@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="description" content="A simple room grid landing page" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png" />
+    <link rel="stylesheet" href="./src/styles.css" />
+    <title>Room Grid | Landing Page</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="/"><img src="./assets/images/logo.svg" alt="room logo" /></a>
+        <ul>
+          <li><a href="/">home</a></li>
+          <li><a href="/">shop</a></li>
+          <li><a href="/">about</a></li>
+          <li><a href="/">contact</a></li>
+        </ul>
+      </nav>
+      <img class="mobile-menu" src="./assets/images/icon-hamburger.svg" alt="mobile menu button" />
+      <img
+        class="header-image"
+        src="./assets/images/desktop-image-hero-1.jpg"
+        alt="White chair in frame"
+      />
+      <img
+        class="header-image"
+        src="./assets/images/desktop-image-hero-2.jpg"
+        alt="Coloured chairs"
+      />
+      <img
+        class="header-image"
+        src="./assets/images/desktop-image-hero-3.jpg"
+        alt="Black chair in frame"
+      />
+      <div class="mobile-menu-container">
+        <img
+          class="close-mobile-menu"
+          src="./assets/images/icon-close.svg"
+          alt="close mobile menu"
+        />
+        <ul>
+          <li><a href="/">home</a></li>
+          <li><a href="/">shop</a></li>
+          <li><a href="/">about</a></li>
+          <li><a href="/">contact</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <main>
+      <div class="hero-content">
+        <h1 class="main-header">Discover innovative ways to decorate</h1>
+        <p class="main-body">
+          We provide unmatched quality, comfort, and style for property owners across the country.
+          Our experts combine form and function in bringing your vision to life. Create a room in
+          your own style with our collection and make your property a reflection of you and what you
+          love.
+        </p>
+        <h1 class="main-header">Manufactured with the best materials</h1>
+        <p class="main-body">
+          We provide unmatched quality, comfort, and style for property owners across the country.
+          Our experts combine form and function in bringing your vision to life. Create a room in
+          your own style with our collection and make your property a reflection of you and what you
+          love.
+        </p>
+        <h1 class="main-header">We are avaliable all across the globe</h1>
+        <p class="main-body">
+          We provide unmatched quality, comfort, and style for property owners across the country.
+          Our experts combine form and function in bringing your vision to life. Create a room in
+          your own style with our collection and make your property a reflection of you and what you
+          love.
+        </p>
+        <a href="/">SHOP NOW <img src="./assets/images/icon-arrow.svg" alt="link arrow icon" /></a>
+      </div>
+    </main>
+
+    <div class="slide-controls">
+      <button class="slide-control-prev">
+        <img
+          src="./assets/images/icon-angle-left.svg"
+          alt="slide-control-left"
+          onclick="plusSlides(-1)"
+        />
+      </button>
+      <button class="slide-control-next">
+        <img
+          src="./assets/images/icon-angle-right.svg"
+          alt="slide-control-right"
+          onclick="plusSlides(+1)"
+        />
+      </button>
+    </div>
+
+    <div class="about-image-left">
+      <img src="./assets/images/image-about-dark.jpg" alt="chairs in a bedroom" />
+    </div>
+
+    <section class="about">
+      <h2>ABOUT OUR FURNITURE</h2>
+      <p>
+        Our multifunctional collection blends design and function to suit your individual taste.
+        Make each room unique, or pick a cohesive theme that best express your interests and what
+        inspires you. Find the furniture pieces you need, from traditional to contemporary styles or
+        anything in between. Product specialists are available to help you create your dream space.
+      </p>
+    </section>
+
+    <div class="about-image-right">
+      <img
+        src="./assets/images/image-about-light.jpg"
+        alt="isolated high chair in studio background"
+      />
+    </div>
+
+    <script src="./src/app.js"></script>
+  </body>
+</html>
